@@ -3,7 +3,7 @@ const app = express();
 
 import winston from 'winston';
 
-import middleware from './middleware.js';
+import middleware from './middleware/boilerplate.js';
 app.use('/', middleware);
 
 const port = process.env.PORT || 3000;

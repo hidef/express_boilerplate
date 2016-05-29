@@ -1,5 +1,5 @@
 import sinon from 'sinon';
-import { echo } from '../src/middleware.js';
+import { echo } from '../src/middleware/boilerplate';
 
 describe('middleware', () => {
 	let req = {	query: {} };

@@ -9,9 +9,11 @@
     "isparta": "^4.0.0",
     "istanbul": "^0.4.3",
     "mocha": "^2.5.3",
-    "sinon": "^1.17.4"
+    "sinon": "^1.17.4",
+    "jsdoc": "^3.4.0"
   },
   "scripts": {
+    "doc": "./node_modules/.bin/jsdoc ./src/**/*.js -d ./doc",
     "start": "./node_modules/.bin/babel-node ./src/index.js",
     "test": "./node_modules/.bin/eslint src/**/*.js test/**/*.js && ./node_modules/.bin/babel-node ./node_modules/.bin/isparta cover _mocha"
   },
