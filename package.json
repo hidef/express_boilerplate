@@ -18,6 +18,8 @@
     "test": "./node_modules/.bin/eslint src/**/*.js test/**/*.js && ./node_modules/.bin/babel-node ./node_modules/.bin/isparta cover _mocha"
   },
   "dependencies": {
+    "express": "^4.13.4",
+    "node-env-file": "^0.1.8",
     "winston": "^2.2.0"
   }
 }

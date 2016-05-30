@@ -1,6 +1,9 @@
 import express from 'express';
 const app = express();
 
+// Import environment variables from .env file
+require('node-env-file')('./.env', {raise: false});
+
 import winston from 'winston';
 
 import middleware from './middleware/boilerplate.js';
